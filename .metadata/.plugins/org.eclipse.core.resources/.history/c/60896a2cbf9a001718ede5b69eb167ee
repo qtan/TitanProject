@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
-  margin:     0;
-  padding:    0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background:  #434343;
-  color:       #FFFFFF;
+  background: #434343; 
+  color: #FFFFFF; 
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size:   0.9em;
@@ -16,94 +16,65 @@ ul {
   list-style: none;
 }
 
-/**
- * top header
- */
 .top-header {
-  position:    fixed;
+  display:flex;
   align-items: center;
-  background:  #DF574B;
+  height: 60px;
+  width: 100%;
   box-shadow:  0px 2px 10px #333333;
-  display:     flex;
-  height:      60px;
-  top:         0;
-  width:       100%;
+  position: fixed;
+  top: 0;
+  background: #DF574B;
 }
 
-/**
- * top navigation
- */
 .top-nav {
   flex: 1;
 }
 
 .top-nav a {
-  color:           #F9F9F9;
-  font-weight:     400;
-  margin-left:     20px;
+  color: #F9F9F9;
+  margin-left: 20px;
   text-decoration: none;
 }
 
-/**
- * main container
- */
 .container {
-  margin:    60px auto;
   max-width: 1000px;
   min-width: 600px;
+  margin: 60px auto;
 }
 
-/**
- * main header
- */
 .container > header {
-  align-items:     center;
-  background:      url('http://prophoto.com.cy/wp-content/galleries/food/food-restaurant-photographer-cyprus-10.jpg') no-repeat 50% 50%;
+  display: flex;
+  align-items: center;
+  background: url('http://prophoto.com.cy/wp-content/galleries/food/food-restaurant-photographer-cyprus-10.jpg') no-repeat 50% 50%;
   background-size: 100%;
-  display:         flex;
-  height:          250px;
+  height: 250px;
 }
 
 .container > header p {
-  border-left:  1px solid #FFFFFF;
-  font-weight:  400;
+  margin-left: 220px;
   font-size:    2em;
   line-height:  1em;
-  margin-left:  220px;
+  border-left:  1px solid #FFFFFF;
   padding-left: 5px;
+  font-weight:  400;
 }
 
-.container > header span {
+.container > header p span {
   color: #FBAF41;
 }
 
-/**
- * main section
- */
 .main-section {
   background: #F3BB43;
 }
 
-/**
- * aside
- */
 #item-nav {
   display: block;
   float: left;
   width: 180px;
 }
 
-.nav-icon {
-  color:      #624630;
-  padding:    20px;
-  text-align: center;
-}
-
-/**
- * main navigation
- */
 .main-nav-btn {
-  background:      none;
   border-top:      1px solid #FFFFFF;
   color:           #FFFFFF;
   display:         block;
@@ -126,9 +97,6 @@ ul {
   width: 20px;
 }
 
-/**
- * item list
- */
 #item-list {
   background:  #F2EBD9;
   color:       #624630;
@@ -139,19 +107,10 @@ ul {
   padding:     10px;
 }
 
-#item-list .notice {
-  font-size:  16px;
-  padding:    60px;
-  text-align: center;
-}
-
-/**
- * item
- */
 .item {
-  align-items:   center;
+  display: flex;
+  align-items: center;
   border-bottom: 1px solid #FFFFFF;
-  display:       flex;
   margin:        10px;
   padding:       15px;
 }
@@ -168,11 +127,12 @@ ul {
   border: 1px solid #FFFFFF;
   height: 80px;
   width:  80px;
+  
 }
 
 .item > div:first-of-type {
-  flex:         1;
-  margin-left:  10px;
+  flex: 1;
+  margin-left: 10px;
   margin-right: 10px;
 }
 
@@ -187,9 +147,9 @@ ul {
 }
 
 .item-address {
-  line-height:   20px;
+  line-height: 20px;
   padding-right: 20px;
-  text-align:    right;
+  text-align: right;
 }
 
 .stars {
@@ -210,15 +170,12 @@ ul {
   color: #F13F3F;
 }
 
-/**
- * footer section
- */
 footer {
   background: #434343;
   font-size:  0.8em;
   height:     200px;
-  position:   relative;
 }
+
 
 footer p {
   text-align: center;
@@ -238,3 +195,7 @@ footer ul {
 footer ul li {
   flex: 1;
 }
+
+
+
+
