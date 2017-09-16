@@ -134,3 +134,14 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 !MESSAGE Save operation warnings.
 !SUBENTRY 1 org.eclipse.core.resources 2 234 2017-09-11 04:32:21.191
 !MESSAGE The project description file (.project) for '_pasted_code_' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 2 2017-09-11 14:54:34.796
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2017-09-11 14:54:34.796
+!MESSAGE The project description file (.project) for '_pasted_code_' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.jface.text 2 0 2017-09-12 17:08:51.448
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-09-12 17:08:51.456
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
