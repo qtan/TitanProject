@@ -1,8 +1,0 @@
-INDEX VERSION 1.4+/Users/qitan/Documents/LaiProject/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-1779471434.index
-1234244087.index
-1007188227.index
-3061517315.index
-3142038606.index
-1650253195.index
-2393765160.index
